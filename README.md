@@ -9,7 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-prachidp-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/prachidp)
 [![Email](https://img.shields.io/badge/Email-prachidpatel1@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:prachidpatel1@gmail.com)
 ![GPA](https://img.shields.io/badge/GPA-3.71%2F4.0-7C3AED?style=flat-square)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=prachidpatel1-pixel.prachidpatel1-pixel&style=flat-square&color=7C3AED)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PrachiDPatel.PrachiDPatel&style=flat-square&color=7C3AED)
 
 </div>
 
@@ -59,11 +59,11 @@ I ran **QuirkyQuark**, a YouTube STEM channel covering AI, quantum computing, an
 
 | Project | Description | Stack |
 |---|---|---|
-| [**🪨 GneissVision**](https://github.com/prachidpatel1-pixel/gneissvision) | VLM + active learning classifier for petrographic thin section minerals | Python · Claude Vision · Scikit-learn |
-| [**🐟 Fish and Chips**](https://github.com/prachidpatel1-pixel/fish-and-chips) | IoT LED controller for a pleco-shaped light — MQTT over WiFi, pixel painter, snake game | ESP32 · WLED · MQTT · HTML/JS |
-| [**🌌 Pokemon Space Gen**](https://prachidpatel1-pixel.github.io/pokemon-space-gen/) | Enter your birthday → get the NASA APOD for that day → receive your Pokémon via color analysis | Java · JavaFX · NASA API · PokéAPI |
-| [**🥷 Keiko**](https://prachidpatel1-pixel.github.io/keiko/) | Staffing scheduler for Code Ninjas — tracks attendance, predicts optimal sensei:student ratio, calculates wasted wages | HTML/JS · Supabase · SQL |
-| [**🎵 SpotClean**](https://github.com/prachidpatel1-pixel/spotclean) | Playlist manager — early stage, building toward Spotify integration | Python |
+| [**🪨 GneissVision**](https://github.com/PrachiDPatel/gneissvision) | VLM + active learning classifier for petrographic thin section minerals | Python · Claude Vision · Scikit-learn |
+| [**🐟 Fish and Chips**](https://github.com/PrachiDPatel/fish-and-chips) | IoT LED controller for a pleco-shaped light — MQTT over WiFi, pixel painter, snake game | ESP32 · WLED · MQTT · HTML/JS |
+| [**🌌 Pokemon Space Gen**](https://PrachiDPatel.github.io/pokemon-space-gen/) | Enter your birthday → get the NASA APOD for that day → receive your Pokémon via color analysis | Java · JavaFX · NASA API · PokéAPI |
+| [**🥷 Keiko**](https://PrachiDPatel.github.io/keiko/) | Staffing scheduler for Code Ninjas — tracks attendance, predicts optimal sensei:student ratio, calculates wasted wages | HTML/JS · Supabase · SQL |
+| [**🎵 SpotClean**](https://github.com/PrachiDPatel/spotclean) | Playlist manager — early stage, building toward Spotify integration | Python |
 
 ---
 
@@ -71,16 +71,16 @@ I ran **QuirkyQuark**, a YouTube STEM channel covering AI, quantum computing, an
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=prachidpatel1-pixel&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prachidpatel1-pixel&layout=compact&theme=midnight-purple&hide_border=true&langs_count=7" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrachiDPatel&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrachiDPatel&layout=compact&theme=midnight-purple&hide_border=true&langs_count=7" />
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=prachidpatel1-pixel&theme=midnight-purple&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+<img src="https://streak-stats.demolab.com?user=PrachiDPatel&theme=midnight-purple&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 
 <br/>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=prachidpatel1-pixel&theme=discord&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=PrachiDPatel&theme=discord&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
