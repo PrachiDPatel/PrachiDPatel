@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="120">
   <defs>
     <!-- 4-pointed soft sparkle ✦ -->
     <path id="sp" d="M0,-1 Q.13,-.13 1,0 Q.13,.13 0,1 Q-.13,.13 -1,0 Q-.13,-.13 0,-1Z"/>
