@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Prachi%20Patel&fontSize=56&fontColor=e0d7ff&animation=fadeIn&fontAlignY=40&desc=CS%20%C3%97%20Geology%20%C2%B7%20curious%20about%20everything&descAlignY=62&descSize=19&descColor=a78bfa" />
+<img src="header.svg" width="100%" />
 
 <div align="center">
 
