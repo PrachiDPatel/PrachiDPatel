@@ -17,7 +17,7 @@
 
 ### 🔭 about me
 
-I'm a CS grad from **UGA's Honors College** with a minor in Geology — I think the most interesting problems live at the intersection of disciplines. Whether I'm training a vision model to identify minerals in thin sections, building IoT light controllers over MQTT, or teaching 12-year-olds about machine learning, curiosity is always the compass.
+I'm a CS grad from UGA's Honors College with a minor in Geology — I think the most interesting problems live at the intersection of disciplines. Whether I'm training a vision model to identify minerals in thin sections, building IoT light controllers over MQTT, or teaching 12-year-olds about machine learning, curiosity is always the compass.
 
 My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark5508), a YouTube STEM channel covering AI, quantum computing, and theoretical physics — earned some nice recognition at science competitions.
 
