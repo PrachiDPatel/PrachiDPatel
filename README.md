@@ -72,11 +72,7 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 
 <div align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PrachiDPatel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PrachiDPatel&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" />
-
-<br/><br/>
+<br/>
 
 <img src="https://streak-stats.demolab.com?user=PrachiDPatel&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 
