@@ -16,6 +16,8 @@
 
 ---
 
+<div align="left" style="margin-top:-20px;">
+
 ### 🔭 about me
 
 I'm a CS grad from UGA's Honors College with a minor in Geology — I think the most interesting problems live at the intersection of disciplines. Whether I'm training a vision model to identify minerals in thin sections, building IoT light controllers over MQTT, or teaching 12-year-olds about machine learning, curiosity is always the compass.
