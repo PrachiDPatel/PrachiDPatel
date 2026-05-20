@@ -1,120 +1,115 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 220" width="860" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 160" width="860" height="160">
   <defs>
+    <!-- 4-pointed soft sparkle ✦ -->
+    <path id="sp" d="M0,-1 Q.13,-.13 1,0 Q.13,.13 0,1 Q-.13,.13 -1,0 Q-.13,-.13 0,-1Z"/>
+    <!-- 6-pointed star ✶ -->
+    <path id="s6" d="M0,-1 L.22,-.39 L.87,-.5 L.45,0 L.87,.5 L.22,.39 L0,1 L-.22,.39 L-.87,.5 L-.45,0 L-.87,-.5 L-.22,-.39Z"/>
+
     <style>
       .star { animation: tw var(--d, 3s) ease-in-out infinite alternate; }
       @keyframes tw { from { opacity: var(--lo, 0.02); } to { opacity: var(--hi, 0.4); } }
-
       .sh1 { opacity: 0; animation: s1 11s linear 1s infinite; }
       .sh2 { opacity: 0; animation: s2 15s linear 6s infinite; }
       @keyframes s1 {
         0%   { opacity: 0; transform: translate(0,0); }
         4%   { opacity: 0.55; }
-        18%  { opacity: 0; transform: translate(200px, 100px); }
-        100% { opacity: 0; transform: translate(200px, 100px); }
+        18%  { opacity: 0; transform: translate(200px,100px); }
+        100% { opacity: 0; transform: translate(200px,100px); }
       }
       @keyframes s2 {
         0%   { opacity: 0; transform: translate(0,0); }
         3%   { opacity: 0.45; }
-        16%  { opacity: 0; transform: translate(165px, 83px); }
-        100% { opacity: 0; transform: translate(165px, 83px); }
+        16%  { opacity: 0; transform: translate(165px,83px); }
+        100% { opacity: 0; transform: translate(165px,83px); }
       }
     </style>
 
-    <!-- Top-to-transparent fade mask -->
     <linearGradient id="fadeGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"   stop-color="white" stop-opacity="1"/>
-      <stop offset="55%"  stop-color="white" stop-opacity="0.75"/>
-      <stop offset="82%"  stop-color="white" stop-opacity="0.2"/>
+      <stop offset="60%"  stop-color="white" stop-opacity="0.7"/>
+      <stop offset="88%"  stop-color="white" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="white" stop-opacity="0"/>
     </linearGradient>
-    <mask id="fade">
-      <rect width="860" height="220" fill="url(#fadeGrad)"/>
-    </mask>
+    <mask id="fade"><rect width="860" height="160" fill="url(#fadeGrad)"/></mask>
 
-    <!-- Background -->
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"   stop-color="#07051a"/>
-      <stop offset="100%" stop-color="#0e0b28"/>
+      <stop offset="0%"   stop-color="#040d1a"/>
+      <stop offset="100%" stop-color="#081422"/>
     </linearGradient>
 
-    <!-- Subtle text glow for readability on transparent bg -->
     <filter id="tglow" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="blur"/>
-      <feFlood flood-color="#07051a" flood-opacity="0.6" result="col"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#040d1a" flood-opacity="0.55" result="col"/>
       <feComposite in="col" in2="blur" operator="in" result="glow"/>
       <feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <!-- Faded starfield + background -->
   <g mask="url(#fade)">
-    <rect width="860" height="220" fill="url(#bg)"/>
+    <rect width="860" height="160" fill="url(#bg)"/>
 
-    <!-- ── Stars (delicate, upper-weighted) ── -->
-    <!-- row 1: y 5–28 -->
-    <circle class="star" style="--d:3.1s;--lo:0.03;--hi:0.45" cx="18"  cy="9"   r="0.7" fill="white"/>
-    <circle class="star" style="--d:2.5s;--lo:0.05;--hi:0.55" cx="72"  cy="22"  r="0.9" fill="#e8ddff"/>
-    <circle class="star" style="--d:4.0s;--lo:0.02;--hi:0.38" cx="148" cy="7"   r="0.6" fill="white"/>
-    <circle class="star" style="--d:3.4s;--lo:0.04;--hi:0.48" cx="224" cy="25"  r="0.7" fill="white"/>
-    <circle class="star" style="--d:2.8s;--lo:0.06;--hi:0.60" cx="310" cy="14"  r="1.0" fill="#f0eaff"/>
-    <circle class="star" style="--d:3.7s;--lo:0.02;--hi:0.40" cx="398" cy="6"   r="0.6" fill="white"/>
-    <circle class="star" style="--d:2.3s;--lo:0.05;--hi:0.52" cx="472" cy="20"  r="0.8" fill="white"/>
-    <circle class="star" style="--d:4.2s;--lo:0.03;--hi:0.44" cx="545" cy="11"  r="0.7" fill="#e4d8ff"/>
-    <circle class="star" style="--d:3.0s;--lo:0.06;--hi:0.58" cx="618" cy="26"  r="0.9" fill="white"/>
-    <circle class="star" style="--d:2.6s;--lo:0.02;--hi:0.42" cx="700" cy="8"   r="0.6" fill="white"/>
-    <circle class="star" style="--d:3.8s;--lo:0.05;--hi:0.50" cx="768" cy="22"  r="0.8" fill="#f0eaff"/>
-    <circle class="star" style="--d:2.9s;--lo:0.03;--hi:0.46" cx="834" cy="14"  r="0.7" fill="white"/>
+    <!-- ── Top row sparkles ── -->
+    <use href="#sp" transform="translate(18,9)   scale(0.7)" fill="white"   class="star" style="--d:3.1s;--lo:0.03;--hi:0.45"/>
+    <use href="#sp" transform="translate(72,20)  scale(0.9)" fill="#c8e4ff" class="star" style="--d:2.5s;--lo:0.05;--hi:0.55"/>
+    <use href="#sp" transform="translate(148,7)  scale(0.6)" fill="white"   class="star" style="--d:4.0s;--lo:0.02;--hi:0.38"/>
+    <use href="#sp" transform="translate(224,22) scale(0.7)" fill="white"   class="star" style="--d:3.4s;--lo:0.04;--hi:0.48"/>
+    <use href="#sp" transform="translate(310,12) scale(1.0)" fill="#ddeeff" class="star" style="--d:2.8s;--lo:0.06;--hi:0.60"/>
+    <use href="#sp" transform="translate(398,5)  scale(0.6)" fill="white"   class="star" style="--d:3.7s;--lo:0.02;--hi:0.40"/>
+    <use href="#sp" transform="translate(472,18) scale(0.8)" fill="white"   class="star" style="--d:2.3s;--lo:0.05;--hi:0.52"/>
+    <use href="#sp" transform="translate(545,9)  scale(0.7)" fill="#c4e0ff" class="star" style="--d:4.2s;--lo:0.03;--hi:0.44"/>
+    <use href="#sp" transform="translate(618,23) scale(0.9)" fill="white"   class="star" style="--d:3.0s;--lo:0.06;--hi:0.58"/>
+    <use href="#sp" transform="translate(700,7)  scale(0.6)" fill="white"   class="star" style="--d:2.6s;--lo:0.02;--hi:0.42"/>
+    <use href="#sp" transform="translate(768,20) scale(0.8)" fill="#ddeeff" class="star" style="--d:3.8s;--lo:0.05;--hi:0.50"/>
+    <use href="#sp" transform="translate(834,12) scale(0.7)" fill="white"   class="star" style="--d:2.9s;--lo:0.03;--hi:0.46"/>
 
-    <!-- row 2: y 38–68 -->
-    <circle class="star" style="--d:3.5s;--lo:0.04;--hi:0.50" cx="44"  cy="52"  r="0.8" fill="white"/>
-    <circle class="star" style="--d:2.4s;--lo:0.02;--hi:0.38" cx="112" cy="42"  r="0.6" fill="#e8ddff"/>
-    <circle class="star" style="--d:4.1s;--lo:0.06;--hi:0.62" cx="185" cy="60"  r="1.1" fill="white"/>
-    <circle class="star" style="--d:3.2s;--lo:0.03;--hi:0.45" cx="268" cy="45"  r="0.7" fill="white"/>
-    <circle class="star" style="--d:2.7s;--lo:0.05;--hi:0.55" cx="358" cy="65"  r="0.9" fill="#f0eaff"/>
-    <circle class="star" style="--d:3.9s;--lo:0.02;--hi:0.40" cx="444" cy="40"  r="0.6" fill="white"/>
-    <circle class="star" style="--d:2.2s;--lo:0.04;--hi:0.48" cx="528" cy="58"  r="0.8" fill="white"/>
-    <circle class="star" style="--d:4.3s;--lo:0.06;--hi:0.58" cx="605" cy="46"  r="0.9" fill="#e4d8ff"/>
-    <circle class="star" style="--d:3.1s;--lo:0.03;--hi:0.42" cx="678" cy="62"  r="0.7" fill="white"/>
-    <circle class="star" style="--d:2.8s;--lo:0.05;--hi:0.52" cx="742" cy="44"  r="0.8" fill="white"/>
-    <circle class="star" style="--d:3.6s;--lo:0.02;--hi:0.44" cx="812" cy="58"  r="0.6" fill="#f0eaff"/>
-    <circle class="star" style="--d:2.5s;--lo:0.04;--hi:0.48" cx="850" cy="40"  r="0.7" fill="white"/>
+    <!-- ── Upper-mid sparkles ── -->
+    <use href="#sp" transform="translate(44,45)  scale(0.8)" fill="white"   class="star" style="--d:3.5s;--lo:0.04;--hi:0.50"/>
+    <use href="#sp" transform="translate(112,38) scale(0.6)" fill="#c8e4ff" class="star" style="--d:2.4s;--lo:0.02;--hi:0.38"/>
+    <use href="#sp" transform="translate(185,52) scale(1.0)" fill="white"   class="star" style="--d:4.1s;--lo:0.06;--hi:0.58"/>
+    <use href="#sp" transform="translate(268,40) scale(0.7)" fill="white"   class="star" style="--d:3.2s;--lo:0.03;--hi:0.45"/>
+    <use href="#sp" transform="translate(358,58) scale(0.9)" fill="#ddeeff" class="star" style="--d:2.7s;--lo:0.05;--hi:0.52"/>
+    <use href="#sp" transform="translate(444,36) scale(0.6)" fill="white"   class="star" style="--d:3.9s;--lo:0.02;--hi:0.38"/>
+    <use href="#sp" transform="translate(528,50) scale(0.8)" fill="white"   class="star" style="--d:2.2s;--lo:0.04;--hi:0.46"/>
+    <use href="#sp" transform="translate(605,42) scale(0.9)" fill="#c4e0ff" class="star" style="--d:4.3s;--lo:0.06;--hi:0.55"/>
+    <use href="#sp" transform="translate(678,56) scale(0.7)" fill="white"   class="star" style="--d:3.1s;--lo:0.03;--hi:0.40"/>
+    <use href="#sp" transform="translate(742,40) scale(0.8)" fill="white"   class="star" style="--d:2.8s;--lo:0.05;--hi:0.50"/>
+    <use href="#sp" transform="translate(812,52) scale(0.6)" fill="#ddeeff" class="star" style="--d:3.6s;--lo:0.02;--hi:0.42"/>
+    <use href="#sp" transform="translate(850,36) scale(0.7)" fill="white"   class="star" style="--d:2.5s;--lo:0.04;--hi:0.46"/>
 
-    <!-- row 3: y 78–105 (sides only, text center avoided) -->
-    <circle class="star" style="--d:3.3s;--lo:0.03;--hi:0.40" cx="28"  cy="88"  r="0.6" fill="white"/>
-    <circle class="star" style="--d:2.6s;--lo:0.05;--hi:0.50" cx="92"  cy="100" r="0.8" fill="#e8ddff"/>
-    <circle class="star" style="--d:4.0s;--lo:0.02;--hi:0.38" cx="160" cy="82"  r="0.6" fill="white"/>
-    <circle class="star" style="--d:3.7s;--lo:0.04;--hi:0.46" cx="730" cy="90"  r="0.7" fill="white"/>
-    <circle class="star" style="--d:2.3s;--lo:0.06;--hi:0.52" cx="795" cy="103" r="0.8" fill="#f0eaff"/>
-    <circle class="star" style="--d:3.5s;--lo:0.03;--hi:0.44" cx="848" cy="84"  r="0.6" fill="white"/>
+    <!-- ── Side stars mid-frame ── -->
+    <use href="#sp" transform="translate(28,80)  scale(0.6)" fill="white"   class="star" style="--d:3.3s;--lo:0.03;--hi:0.38"/>
+    <use href="#sp" transform="translate(92,92)  scale(0.8)" fill="#c8e4ff" class="star" style="--d:2.6s;--lo:0.05;--hi:0.46"/>
+    <use href="#sp" transform="translate(730,82) scale(0.7)" fill="white"   class="star" style="--d:3.7s;--lo:0.04;--hi:0.44"/>
+    <use href="#sp" transform="translate(795,94) scale(0.8)" fill="#ddeeff" class="star" style="--d:2.3s;--lo:0.06;--hi:0.50"/>
+    <use href="#sp" transform="translate(848,78) scale(0.6)" fill="white"   class="star" style="--d:3.5s;--lo:0.03;--hi:0.42"/>
 
-    <!-- featured bright stars — a handful, gentle -->
-    <circle class="star" style="--d:4.5s;--lo:0.08;--hi:0.70" cx="58"  cy="32"  r="1.4" fill="#f5f0ff"/>
-    <circle class="star" style="--d:4.0s;--lo:0.07;--hi:0.65" cx="810" cy="35"  r="1.3" fill="#ede4ff"/>
-    <circle class="star" style="--d:5.0s;--lo:0.09;--hi:0.68" cx="302" cy="38"  r="1.2" fill="white"/>
-    <circle class="star" style="--d:4.2s;--lo:0.07;--hi:0.62" cx="572" cy="32"  r="1.3" fill="#f0eaff"/>
+    <!-- ── Featured 6-pointed stars ── -->
+    <use href="#s6" transform="translate(58,28)  scale(1.4)" fill="#e8f4ff" class="star" style="--d:4.5s;--lo:0.08;--hi:0.68"/>
+    <use href="#s6" transform="translate(810,30) scale(1.3)" fill="#d4eaff" class="star" style="--d:4.0s;--lo:0.07;--hi:0.62"/>
+    <use href="#s6" transform="translate(302,32) scale(1.2)" fill="white"   class="star" style="--d:5.0s;--lo:0.09;--hi:0.65"/>
+    <use href="#s6" transform="translate(572,28) scale(1.3)" fill="#e0f0ff" class="star" style="--d:4.2s;--lo:0.07;--hi:0.60"/>
 
     <!-- ── Shooting stars ── -->
     <g class="sh1">
-      <line x1="48" y1="18" x2="106" y2="47" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.75"/>
-      <circle cx="106" cy="47" r="1.4" fill="white" opacity="0.9"/>
+      <line x1="48" y1="16" x2="104" y2="42" stroke="white" stroke-width="1.0" stroke-linecap="round" opacity="0.75"/>
+      <use href="#s6" transform="translate(104,42) scale(1.3)" fill="white" opacity="0.9"/>
     </g>
     <g class="sh2">
-      <line x1="628" y1="14" x2="682" y2="41" stroke="white" stroke-width="0.9" stroke-linecap="round" opacity="0.65"/>
-      <circle cx="682" cy="41" r="1.2" fill="white" opacity="0.85"/>
+      <line x1="628" y1="12" x2="680" y2="38" stroke="white" stroke-width="0.9" stroke-linecap="round" opacity="0.65"/>
+      <use href="#s6" transform="translate(680,38) scale(1.1)" fill="white" opacity="0.85"/>
     </g>
   </g>
 
-  <!-- Text — outside mask, always fully visible -->
-  <text x="430" y="100"
+  <text x="430" y="76"
         text-anchor="middle"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
         font-size="52" font-weight="600"
-        fill="#e0d7ff" letter-spacing="-0.5"
+        fill="#cce8ff" letter-spacing="-0.5"
         filter="url(#tglow)">Prachi Patel</text>
-  <text x="430" y="136"
+  <text x="430" y="110"
         text-anchor="middle"
         font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif"
         font-size="16"
-        fill="#9d8bbf" letter-spacing="1.2"
+        fill="#7aaed0" letter-spacing="1.2"
         filter="url(#tglow)">CS × Geology</text>
 </svg>

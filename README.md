@@ -2,14 +2,14 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=620&lines=software+engineer+%F0%9F%92%BB;geoscience+nerd+%F0%9F%AA%A8;science+communicator+%F0%9F%94%AD;builder+of+curious+things+%F0%9F%8C%8C;UGA+Honors+Alum+%7C+BS+CS+%2B+Geology+minor" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=software+engineer+%F0%9F%92%BB;geoscience+nerd+%F0%9F%AA%A8;science+communicator+%F0%9F%94%AD;builder+of+curious+things+%F0%9F%8C%8C;UGA+Honors+%7C+BS+CS+%2B+Geology+minor" alt="Typing SVG" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-prachidp-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/prachidp)
 [![Email](https://img.shields.io/badge/Email-prachidpatel1@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:prachidpatel1@gmail.com)
-![GPA](https://img.shields.io/badge/GPA-3.71%2F4.0-7C3AED?style=flat-square)
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PrachiDPatel.PrachiDPatel&style=flat-square&color=7C3AED)
+![GPA](https://img.shields.io/badge/GPA-3.71%2F4.0-0284C7?style=flat-square)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=PrachiDPatel.PrachiDPatel&style=flat-square&color=0284C7)
 
 </div>
 
@@ -19,12 +19,12 @@
 
 I'm a CS grad from **UGA's Honors College** with a minor in Geology — I think the most interesting problems live at the intersection of disciplines. Whether I'm training a vision model to identify minerals in thin sections, building IoT light controllers over MQTT, or teaching 12-year-olds about machine learning, curiosity is always the compass.
 
-My favorite project is [**QuirkyQuark*](https://www.youtube.com/@quirkyquark5508)*, a YouTube STEM channel covering AI, quantum computing, and theoretical physics — earning top placements and $700+ in awards at state and national STEM competitions.
+My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark5508), a YouTube STEM channel covering AI, quantum computing, and theoretical physics — earned some nice recognition at science competitions.
 
-- 🏥 Former **Software Engineering Intern @ Kaiser Permanente** — shipped a SwiftUI drug interaction feature serving 9M+ users  
-- 🥷 **CS Instructor @ Code Ninjas** — teaching data structures, algorithms, and OOP to 100+ students  
-- 🧪 Former **Research Assistant @ UGA Center for Applied Isotope Studies** — MC-ICP-MS sample prep for 10+ universities  
-- 🪨 Geology nerd who thinks rocks are extremely cool  
+- 🏥 Former **Software Engineering Intern @ Kaiser Permanente** — shipped a SwiftUI drug interaction feature serving 9M+ users
+- 🥷 **CS Instructor @ Code Ninjas** — teaching data structures, algorithms, and OOP
+- 🧪 Former **Research Assistant @ UGA Center for Applied Isotope Studies** — MC-ICP-MS sample prep for 10+ universities
+- 🪨 Geology nerd who thinks rocks are extremely cool
 
 ---
 
@@ -71,23 +71,28 @@ My favorite project is [**QuirkyQuark*](https://www.youtube.com/@quirkyquark5508
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrachiDPatel&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrachiDPatel&layout=compact&theme=midnight-purple&hide_border=true&langs_count=7" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrachiDPatel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+&nbsp;&nbsp;
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrachiDPatel&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" />
 
-<br/>
+<br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=PrachiDPatel&theme=midnight-purple&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
+<img src="https://streak-stats.demolab.com?user=PrachiDPatel&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
 
-<br/>
+<br/><br/>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=PrachiDPatel&theme=discord&no-frame=true&row=1&column=6&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=PrachiDPatel&theme=tokyo-night&hide_border=true&area=true&color=58A6FF&line=4DA6FF&point=cce8ff&area_color=1a3a5c" />
 
 </div>
+
+<br/>
 
 ---
 
 <div align="center">
-  <em>"The most beautiful thing we can experience is the mysterious." — Einstein</em>
+  <em>"I learn not to know more, but to ignore less." — Werner Herzog</em>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" />
+<br/>
+
+<img src="footer.svg" width="100%" />

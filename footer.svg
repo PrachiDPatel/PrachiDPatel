@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="860" height="120">
+  <defs>
+    <path id="sp" d="M0,-1 Q.13,-.13 1,0 Q.13,.13 0,1 Q-.13,.13 -1,0 Q-.13,-.13 0,-1Z"/>
+    <path id="s6" d="M0,-1 L.22,-.39 L.87,-.5 L.45,0 L.87,.5 L.22,.39 L0,1 L-.22,.39 L-.87,.5 L-.45,0 L-.87,-.5 L-.22,-.39Z"/>
+
+    <style>
+      .star { animation: tw var(--d, 3s) ease-in-out infinite alternate; }
+      @keyframes tw { from { opacity: var(--lo, 0.02); } to { opacity: var(--hi, 0.4); } }
+    </style>
+
+    <linearGradient id="fadeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="white" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="white" stop-opacity="0.25"/>
+      <stop offset="70%"  stop-color="white" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="fade"><rect width="860" height="120" fill="url(#fadeGrad)"/></mask>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#040d1a"/>
+      <stop offset="100%" stop-color="#06111f"/>
+    </linearGradient>
+  </defs>
+
+  <g mask="url(#fade)">
+    <rect width="860" height="120" fill="url(#bg)"/>
+
+    <use href="#sp" transform="translate(35,88)  scale(0.7)" fill="white"   class="star" style="--d:3.2s;--lo:0.03;--hi:0.42"/>
+    <use href="#sp" transform="translate(98,100) scale(0.8)" fill="#d4eaff" class="star" style="--d:2.5s;--lo:0.05;--hi:0.50"/>
+    <use href="#sp" transform="translate(172,78) scale(0.6)" fill="white"   class="star" style="--d:4.0s;--lo:0.02;--hi:0.38"/>
+    <use href="#sp" transform="translate(260,95) scale(0.7)" fill="white"   class="star" style="--d:3.6s;--lo:0.04;--hi:0.46"/>
+    <use href="#sp" transform="translate(345,82) scale(0.9)" fill="#cce4ff" class="star" style="--d:2.8s;--lo:0.06;--hi:0.55"/>
+    <use href="#sp" transform="translate(430,105) scale(0.6)" fill="white"  class="star" style="--d:3.9s;--lo:0.02;--hi:0.40"/>
+    <use href="#sp" transform="translate(510,88) scale(0.8)" fill="white"   class="star" style="--d:2.3s;--lo:0.05;--hi:0.48"/>
+    <use href="#sp" transform="translate(592,72) scale(0.7)" fill="#d4eaff" class="star" style="--d:4.1s;--lo:0.03;--hi:0.44"/>
+    <use href="#sp" transform="translate(668,98) scale(0.9)" fill="white"   class="star" style="--d:3.0s;--lo:0.06;--hi:0.52"/>
+    <use href="#sp" transform="translate(738,80) scale(0.6)" fill="white"   class="star" style="--d:2.7s;--lo:0.02;--hi:0.42"/>
+    <use href="#sp" transform="translate(800,95) scale(0.8)" fill="#cce4ff" class="star" style="--d:3.5s;--lo:0.05;--hi:0.50"/>
+    <use href="#sp" transform="translate(848,82) scale(0.7)" fill="white"   class="star" style="--d:2.9s;--lo:0.03;--hi:0.46"/>
+
+    <use href="#s6" transform="translate(130,95) scale(1.2)" fill="#e8f4ff" class="star" style="--d:4.3s;--lo:0.08;--hi:0.62"/>
+    <use href="#s6" transform="translate(720,90) scale(1.1)" fill="#e0f0ff" class="star" style="--d:4.0s;--lo:0.07;--hi:0.58"/>
+  </g>
+</svg>
