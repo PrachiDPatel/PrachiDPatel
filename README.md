@@ -71,9 +71,9 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=PrachiDPatel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=PrachiDPatel&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
 &nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrachiDPatel&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=PrachiDPatel&layout=compact&theme=tokyonight&hide_border=true&langs_count=7" />
 
 <br/><br/>
 
@@ -81,7 +81,7 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=PrachiDPatel&theme=tokyo-night&hide_border=true&area=true&color=58A6FF&line=4DA6FF&point=cce8ff&area_color=1a3a5c" />
+<img src="https://ghchart.rshah.org/4da6ff/PrachiDPatel" alt="contribution graph" />
 
 </div>
 
