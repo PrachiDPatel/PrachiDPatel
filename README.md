@@ -1,9 +1,10 @@
-<img src="header.svg" width="100%" />
+<img src="header.svg" width="100%" style="display:block; margin-bottom:-20px;" />
 
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=620&lines=software+engineer+%F0%9F%92%BB;geoscience+nerd+%F0%9F%AA%A8;science+communicator+%F0%9F%94%AD;builder+of+curious+things+%F0%9F%8C%8C;UGA+Honors+%7C+BS+CS+%2B+Geology+minor" alt="Typing SVG" />
 
+<div align="center" style="margin-top:-20px;">
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-prachidp-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/prachidp)
