@@ -24,10 +24,10 @@ I'm a CS grad from UGA's Honors College with a minor in Geology — I think the 
 
 My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark5508), a YouTube STEM channel covering AI, quantum computing, and theoretical physics — and has earned $700+ at state and national level STEM competitions.
 
-- 🏥 Former **Software Engineering Intern @ Kaiser Permanente** — shipped a SwiftUI drug interaction feature serving 9M+ users
-- 🥷 **CS Instructor @ Code Ninjas** — teaching data structures, algorithms, and OOP to kids K-12
-- 🧪 Former **Research Assistant @ UGA Center for Applied Isotope Studies** — MC-ICP-MS sample prep for 10+ universities
-- 🪨 Geology nerd who thinks rocks are extremely cool
+- Former **Software Engineering Intern @ Kaiser Permanente** — shipped a SwiftUI drug interaction feature serving 9M+ users
+-  **CS Instructor @ Code Ninjas** — teaching data structures, algorithms, and OOP to kids K-12
+- Former **Research Assistant @ UGA Center for Applied Isotope Studies** — MC-ICP-MS sample prep for 10+ universities
+- Geology nerd who thinks rocks are extremely cool
 
 ---
 
