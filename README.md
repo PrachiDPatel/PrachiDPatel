@@ -18,20 +18,20 @@
 
 <div align="left" style="margin-top:-20px;">
 
-### 🔭 about me
+### About Me
 
 I'm a CS grad from UGA's Honors College with a minor in Geology — I think the most interesting problems live at the intersection of disciplines. Whether I'm training a vision model to identify minerals in thin sections, building IoT light controllers over MQTT, or teaching 12-year-olds about machine learning, curiosity is always the compass.
 
 My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark5508), a YouTube STEM channel covering AI, quantum computing, and theoretical physics — and has earned $700+ at state and national level STEM competitions.
 
-- Former **Software Engineering Intern @ Kaiser Permanente** — shipped a SwiftUI drug interaction feature serving 9M+ users
+- Former **Software Engineering Intern @ Kaiser Permanente** — created an SwiftUI drug interaction feature for the KP Flagship App which serves 9M+ users
 -  **CS Instructor @ Code Ninjas** — teaching data structures, algorithms, and OOP to kids K-12
 - Former **Research Assistant @ UGA Center for Applied Isotope Studies** — MC-ICP-MS sample prep for 10+ universities
 - Geology nerd who thinks rocks are extremely cool
 
 ---
 
-### 🛠️ skills
+### Skills
 
 **Languages**
 
@@ -58,19 +58,19 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 
 ---
 
-### 🚀 featured projects
+### Featured Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| [**🪨 GneissVision**](https://github.com/PrachiDPatel/gneissvision) | VLM + active learning classifier for petrographic thin section minerals | Python · Claude Vision · Scikit-learn |
-| [**🐟 Fish and Chips**](https://github.com/PrachiDPatel/fish-and-chips) | IoT LED controller for a pleco-shaped light — MQTT over WiFi, pixel painter, snake game | ESP32 · WLED · MQTT · HTML/JS |
-| [**🌌 Pokemon Space Gen**](https://PrachiDPatel.github.io/pokemon-space-gen/) | Enter your birthday → get the NASA APOD for that day → receive your Pokémon via color analysis | Java · JavaFX · NASA API · PokéAPI |
-| [**🥷 Keiko**](https://PrachiDPatel.github.io/keiko/) | Staffing scheduler for Code Ninjas — tracks attendance, predicts optimal sensei:student ratio, calculates wasted wages | HTML/JS · Supabase · SQL |
-| [**🎵 SpotClean**](https://github.com/PrachiDPatel/spotclean) | Playlist manager — early stage, building toward Spotify integration | Python |
+| [**GneissVision**](https://github.com/PrachiDPatel/gneissvision) | VLM + active learning classifier for petrographic thin section minerals | Python · Claude Vision · Scikit-learn |
+| [**Fish and Chips**](https://github.com/PrachiDPatel/fish-and-chips) | IoT LED controller for a pleco-shaped light — MQTT over WiFi, pixel painter, snake game | ESP32 · WLED · MQTT · HTML/JS |
+| [**Pokemon Space Gen**](https://PrachiDPatel.github.io/pokemon-space-gen/) | Enter your birthday → get the NASA APOD for that day → receive your Pokémon via color analysis | Java · JavaFX · NASA API · PokéAPI |
+| [**Keiko**](https://PrachiDPatel.github.io/keiko/) | Staffing scheduler for Code Ninjas — tracks attendance, predicts optimal sensei:student ratio, calculates wasted wages | HTML/JS · Supabase · SQL |
+| [**SpotClean**](https://github.com/PrachiDPatel/spotclean) | Playlist manager — early stage, building toward Spotify integration | Python |
 
 ---
 
-### 📊 stats
+### stats
 
 <div align="center">
 
