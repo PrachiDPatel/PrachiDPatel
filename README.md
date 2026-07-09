@@ -70,7 +70,7 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 
 ---
 
-### stats
+### Stats
 
 <div align="center">
 
