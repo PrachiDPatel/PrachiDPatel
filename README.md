@@ -22,7 +22,7 @@
 
 I'm a CS grad from UGA's Honors College with a minor in Geology — I think the most interesting problems live at the intersection of disciplines. Whether I'm training a vision model to identify minerals in thin sections, building IoT light controllers over MQTT, or teaching 12-year-olds about machine learning, curiosity is always the compass.
 
-My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark5508), a YouTube STEM channel covering AI, quantum computing, and theoretical physics — and has earned $700+ at state and national level STEM competitions.
+My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark5508), a YouTube STEM channel covering AI, quantum computing, and theoretical physics — and has earned $700+ at state and national level STEM competitions. I also really love my pleco sculpture- Joseph (Check him out in the Fish and Chips repo).
 
 - Former **Software Engineering Intern @ Kaiser Permanente** — created an SwiftUI drug interaction feature for the KP Flagship App which serves 9M+ users
 -  **CS Instructor @ Code Ninjas** — teaching data structures, algorithms, and OOP to kids K-12
