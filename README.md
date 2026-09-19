@@ -66,7 +66,7 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 | [**GneissVision**](https://github.com/PrachiDPatel/gneissvision) | VLM + active learning classifier for petrographic thin section minerals | Python · Claude Vision · Scikit-learn |
 | [**Fish and Chips**](https://github.com/PrachiDPatel/fish-and-chips) | IoT LED controller for a pleco-shaped light — MQTT over WiFi, pixel painter, snake game | ESP32 · WLED · MQTT · HTML/JS |
 | [**Pokemon Space Gen**](https://PrachiDPatel.github.io/pokemon-space-gen/) | Enter your birthday → get the NASA APOD for that day → receive your Pokémon via color analysis | Java · JavaFX · NASA API · PokéAPI |
-| [**The Petrova Log**](https://github.com/PrachiDPatel/petrova-log) | Two-person letter-writing app themed after *Project Hail Mary* — wax seals, one letter a day, live delivery | HTML/JS · Firebase · Firestore |
+| [**The Petrova Log**](https://petrova-log.pages.dev) | Two-person letter-writing app themed after *Project Hail Mary* — wax seals, one letter a day, live delivery | HTML/JS · Firebase · Firestore |
 | [**Keiko**](https://PrachiDPatel.github.io/keiko/) | Staffing scheduler for Code Ninjas — tracks attendance, predicts optimal sensei:student ratio, calculates wasted wages | HTML/JS · Supabase · SQL |
 | [**SpotClean**](https://github.com/PrachiDPatel/spotclean) | Playlist manager — early stage, building toward Spotify integration | Python |
 
