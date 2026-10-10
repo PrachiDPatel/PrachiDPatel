@@ -70,23 +70,6 @@ My favorite project is [**QuirkyQuark**](https://www.youtube.com/@quirkyquark550
 | [**Keiko**](https://PrachiDPatel.github.io/keiko/) | Staffing scheduler for Code Ninjas — tracks attendance, predicts optimal sensei:student ratio, calculates wasted wages | HTML/JS · Supabase · SQL |
 | [**SpotClean**](https://github.com/PrachiDPatel/spotclean) | Playlist manager — early stage, building toward Spotify integration | Python |
 
----
-
-### Stats
-
-<div align="center">
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=PrachiDPatel&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
-
-<br/><br/>
-
-<img src="https://ghchart.rshah.org/4da6ff/PrachiDPatel" alt="contribution graph" />
-
-</div>
-
-<br/>
 
 ---
 
